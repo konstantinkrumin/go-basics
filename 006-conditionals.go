@@ -37,7 +37,6 @@ func main() {
     fmt.Println(n + " is a " + statusByName(n)) // Karl is a single person
 }
 
-
 /* ========================= */
 /*
 	Реализуйте функцию DomainForLocale(domain, locale string) string, которая 
