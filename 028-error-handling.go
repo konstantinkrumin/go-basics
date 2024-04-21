@@ -167,7 +167,7 @@ const unknownErrorMsg = "unknown error"
 
 func GetErrorMsg(err error) string {
 	if errors.As(err, &nonCriticalError{}) {
-		return "validation error"
+		return ""
 	}
 
 	if errors.Is(err, errBadConnection) {
